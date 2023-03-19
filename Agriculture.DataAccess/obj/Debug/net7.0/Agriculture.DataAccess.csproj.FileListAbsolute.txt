@@ -1,0 +1,17 @@
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\bin\Debug\net7.0\Agriculture.DataAccess.deps.json
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\bin\Debug\net7.0\Agriculture.DataAccess.runtimeconfig.json
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\bin\Debug\net7.0\Agriculture.DataAccess.dll
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\bin\Debug\net7.0\Agriculture.DataAccess.pdb
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\bin\Debug\net7.0\Agriculture.Entities.dll
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\bin\Debug\net7.0\Agriculture.Entities.pdb
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\obj\Debug\net7.0\Agriculture.DataAccess.csproj.AssemblyReference.cache
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\obj\Debug\net7.0\Agriculture.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\obj\Debug\net7.0\Agriculture.DataAccess.AssemblyInfoInputs.cache
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\obj\Debug\net7.0\Agriculture.DataAccess.AssemblyInfo.cs
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\obj\Debug\net7.0\Agriculture.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\obj\Debug\net7.0\Agriculture.DataAccess.csproj.CopyComplete
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\obj\Debug\net7.0\Agriculture.DataAccess.dll
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\obj\Debug\net7.0\refint\Agriculture.DataAccess.dll
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\obj\Debug\net7.0\Agriculture.DataAccess.pdb
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\obj\Debug\net7.0\Agriculture.DataAccess.genruntimeconfig.cache
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.DataAccess\obj\Debug\net7.0\ref\Agriculture.DataAccess.dll

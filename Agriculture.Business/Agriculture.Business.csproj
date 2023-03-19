@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Agriculture.DataAccess\Agriculture.DataAccess.csproj" />
+    <ProjectReference Include="..\Agriculture.Entities\Agriculture.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

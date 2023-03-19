@@ -1,0 +1,17 @@
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\bin\Debug\net7.0\Agriculture.Business.deps.json
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\bin\Debug\net7.0\Agriculture.Business.dll
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\bin\Debug\net7.0\Agriculture.Business.pdb
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\bin\Debug\net7.0\Agriculture.DataAccess.dll
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\bin\Debug\net7.0\Agriculture.Entities.dll
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\bin\Debug\net7.0\Agriculture.DataAccess.pdb
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\bin\Debug\net7.0\Agriculture.Entities.pdb
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\obj\Debug\net7.0\Agriculture.Business.csproj.AssemblyReference.cache
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\obj\Debug\net7.0\Agriculture.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\obj\Debug\net7.0\Agriculture.Business.AssemblyInfoInputs.cache
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\obj\Debug\net7.0\Agriculture.Business.AssemblyInfo.cs
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\obj\Debug\net7.0\Agriculture.Business.csproj.CoreCompileInputs.cache
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\obj\Debug\net7.0\Agriculture.Business.csproj.CopyComplete
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\obj\Debug\net7.0\Agriculture.Business.dll
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\obj\Debug\net7.0\refint\Agriculture.Business.dll
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\obj\Debug\net7.0\Agriculture.Business.pdb
+C:\Users\akinc\source\repos\Agriculture_V0\Agriculture.Business\obj\Debug\net7.0\ref\Agriculture.Business.dll
