@@ -12,7 +12,12 @@ namespace Agriculture.Business.Concrete
 {
     public class GenericManager<T,TEntityDal> : IGenericService<T> where T : class,IEntity, new() where TEntityDal : class,IGenericDal<T>,new()
     {
-        TEntityDal _genericDal = new TEntityDal();
+        private readonly TEntityDal _genericDal;
+
+        public GenericManager(TEntityDal genericDal)
+        {
+            _genericDal = genericDal;
+        }
 
         public void Add(T entity)
         {

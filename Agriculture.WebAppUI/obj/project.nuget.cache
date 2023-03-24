@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "v8Q3IDsvCvlWTQdGZ3J6WdjUpOnEYSE4K/vZV1sdoukhRXiuOZWDrOsthejQrGiFkPzRIVZSFj7mTCVe1Mn3Tg==",
+  "dgSpecHash": "HzYCgWsQKGDu9Kq6BR1R6ROz+AgAyhxG/s5ZCjzlHQ9jKAl8IN6PD9KbkRgdMuFiCLTryOC0snDyT0rtRVEtOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\akinc\\source\\repos\\Agriculture_V0\\Agriculture.WebAppUI\\Agriculture.WebAppUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akinc\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\akinc\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\akinc\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\akinc\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\akinc\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\akinc\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\akinc\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\akinc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

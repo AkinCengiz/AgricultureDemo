@@ -1,0 +1,55 @@
+﻿@using Agriculture.Entities.Concrete
+@model List<Team>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Takım Üyeleri</h4>
+            <p class="card-description">
+                Ekip arkadaşlarımız...
+            </p>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Adı</th>
+                        <th>Soyadı</th>
+                        <th>Başlık</th>
+                        <th>Resim</th>
+                        <th>Facebook</th>
+                        <th>Instagram</th>
+                        <th>Web Site</th>
+                        <th>Twitter</th>
+                        <th>Sil</th>
+                        <th>Güncelle</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.TeamId</td>
+                            <td>@item.FirstName</td>
+                            <td>@item.LastName</td>
+                            <td>@item.Title</td>
+                            <td>@item.ImageUrl</td>
+                            <td>@item.FacebookUrl</td>
+                            <td>@item.InstagramUrl</td>
+                            <td>@item.WebsiteUrl</td>
+                            <td>@item.TwitterUrl</td>
+                            <td><a href="/Team/DeleteTeam/@item.TeamId" class="btn btn-danger">Sil</a></td>
+                            <td><a href="/Team/UpdateTeam/@item.TeamId" class="btn btn-warning">Güncelle</a></td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+                <a href="/Team/AddTeam/" class="btn btn-outline-primary">Personel Ekle</a>
+            </div>
+        </div>
+    </div>
+</div>
