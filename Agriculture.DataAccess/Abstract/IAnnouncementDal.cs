@@ -9,5 +9,7 @@ namespace Agriculture.DataAccess.Abstract
 {
     public interface IAnnouncementDal : IGenericDal<Announcement>
     {
+        void MakeStatusFalse(int id);
+        void MakeStatusTrue(int id);
     }
 }

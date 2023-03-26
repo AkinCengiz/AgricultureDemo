@@ -1,0 +1,59 @@
+﻿@using Agriculture.Entities.Concrete
+@model List<Announcement>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Duyuru Listesi</h4>
+            <p class="card-description">
+                Duyurular
+            </p>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Başlık</th>
+                        <th>Açıklama</th>
+                        <th>Tarih</th>
+                        <th>Durumu</th>
+                        <th>Durumu Değiştir</th>
+                        <th>Sil</th>
+                        <th>Güncelle</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.AnnouncementId</td>
+                            <td>@item.Title</td>
+                            <td>@item.Description</td>
+                            <td>@item.Date</td>
+                            <td>@item.Status</td>
+                            <td>
+                                @if (item.Status)
+                                {
+                                    <a href="/Announcement/ChangesStatu/@item.AnnouncementId" class="btn btn-danger">Pasif Yap</a>
+                                }
+                                else
+                                {
+                                    <a href="/Announcement/ChangesStatu/@item.AnnouncementId" class="btn btn-success">Aktif Yap</a>
+                                }
+                            </td>
+                            <td><a href="/Announcement/DeleteAnnouncement/@item.AnnouncementId" class="btn btn-outline-danger">Sil</a></td>
+                            <td><a href="/Announcement/UpdateAnnouncement/@item.AnnouncementId" class="btn btn-outline-warning">Güncelle</a></td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+                <a href="/Announcement/AddAnnouncement/" class="btn btn-outline-primary mt-3">Duyuru Ekle</a>
+            </div>
+        </div>
+    </div>
+</div>

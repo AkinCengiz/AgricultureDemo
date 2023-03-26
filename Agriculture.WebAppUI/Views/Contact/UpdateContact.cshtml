@@ -1,0 +1,60 @@
+﻿@model Agriculture.Entities.Concrete.Contact
+@{
+    ViewData["Title"] = "UpdateContact";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Mesaj Güncelleme Paneli</h4>
+            <form method="post" class="forms-sample">
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        @Html.Label("ID")
+                        <span asp-validation-for="ContactId" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="ContactId" class="form-control" id="exampleInputUsername2">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        @Html.Label("Kime")
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="Name" class="form-control" id="exampleInputUsername2">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        @Html.Label("Mail Adresi")
+                        <span asp-validation-for="Mail" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="Mail" class="form-control" id="exampleInputUsername2">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        @Html.Label("Mesaj")
+                        <span asp-validation-for="Mail" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-9">
+                        <textarea asp-for="Message" class="form-control" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        @Html.Label("Tarih")
+                        <span asp-validation-for="Date" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="date" asp-for="Date" class="form-control" id="exampleInputUsername2">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-warning me-2">Güncelle</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -10,7 +10,7 @@ namespace Agriculture.WebAppUI.Controllers
 {
     public class TeamController : Controller
     {
-        TeamManager _teamManager = new TeamManager(new EfTeamDal());
+        private readonly TeamManager _teamManager = new TeamManager(new EfTeamDal());
         public IActionResult Index()
         {
             var values = _teamManager.GetList();
@@ -104,9 +104,5 @@ namespace Agriculture.WebAppUI.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult Deneme()
-        {
-            return View();
-        }
     }
 }

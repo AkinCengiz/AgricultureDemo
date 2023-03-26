@@ -9,5 +9,7 @@ namespace Agriculture.Business.Abstract
 {
     public interface IAnnouncementService : IGenericService<Announcement>
     {
+        void MakeStatusFalse(int id);
+        void MakeStatusTrue(int id);
     }
 }

@@ -1,0 +1,48 @@
+﻿@using Agriculture.Entities.Concrete
+@model List<Contact>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">İletişim Listesi</h4>
+            <p class="card-description">
+                Mesajlar
+            </p>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Kime</th>
+                            <th>Mail Adresi</th>
+                            <th>Mesaj</th>
+                            <th>Tarih</th>
+                            <th>Sil</th>
+                            <th>Güncelle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.ContactId</td>
+                                <td>@item.Name</td>
+                                <td>@item.Mail</td>
+                                <td>@item.Message</td>
+                                <td>@item.Date</td>
+                                <td><a href="/Contact/DeleteContact/@item.ContactId" class="btn btn-outline-danger">Sil</a></td>
+                                <td><a href="/Contact/UpdateContact/@item.ContactId" class="btn btn-outline-warning">Güncelle</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <a href="/Contact/AddContact/" class="btn btn-outline-primary mt-3">Mesaj Ekle</a>
+            </div>
+        </div>
+    </div>
+</div>
+

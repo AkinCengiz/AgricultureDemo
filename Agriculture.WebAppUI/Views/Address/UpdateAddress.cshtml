@@ -1,0 +1,79 @@
+﻿@model Agriculture.Entities.Concrete.Address
+@{
+    ViewData["Title"] = "UpdateAddress";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Adres Güncelleme Paneli</h4>
+            <form method="post" class="forms-sample">
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        @Html.Label("ID")
+                        <span asp-validation-for="AddressId" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="AddressId" class="form-control" id="exampleInputUsername2">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        @Html.Label("Mahalle")
+                        <span asp-validation-for="District" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="District" class="form-control" id="exampleInputUsername2">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        @Html.Label("Cadde / Sokak")
+                        <span asp-validation-for="Street" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="Street" class="form-control" id="exampleInputUsername2">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        @Html.Label("Bina ve Daire No")
+                        <span asp-validation-for="BuildNo" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="BuildNo" class="form-control" id="exampleInputUsername2">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        @Html.Label("İlçe")
+                        <span asp-validation-for="Town" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="Town" class="form-control" id="exampleInputUsername2">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        @Html.Label("Şehir")
+                        <span asp-validation-for="City" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="City" class="form-control" id="exampleInputUsername2">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        @Html.Label("Harita")
+                        <span asp-validation-for="MapInfo" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="MapInfo" class="form-control" id="exampleInputUsername2">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-warning me-2">Güncelle</button>
+            </form>
+        </div>
+    </div>
+</div>

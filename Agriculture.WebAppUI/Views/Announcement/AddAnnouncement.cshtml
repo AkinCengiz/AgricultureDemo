@@ -1,0 +1,56 @@
+﻿@model Agriculture.Entities.Concrete.Announcement
+@{
+    ViewData["Title"] = "AddAnnouncement";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Duyuru Ekleme Paneli</h4>
+            <form method="post" class="forms-sample">
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        @Html.Label("Başlık")
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="Title" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-3">
+                        @Html.Label("Açıklama")
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="Description" class="form-control">
+                    </div>
+                </div>
+                <!--
+                    <div class="form-group row">
+                        <div class="col-sm-3">
+                            @Html.Label("Tarih")
+                            <span asp-validation-for="Date" class="text-danger"></span>
+                        </div>
+                        <div class="col-sm-9">
+                            <input type="text" asp-for="Date" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-3">
+                            @Html.Label("Durumu")
+                            <span asp-validation-for="Status" class="text-danger"></span>
+                        </div>
+                        <div class="col-sm-9">
+                            <input type="checkbox" asp-for="Status" class="form-control">
+                        </div>
+                    </div>
+                -->
+                <button type="submit" class="btn btn-outline-primary me-2">Kaydet</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+

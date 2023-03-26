@@ -19,6 +19,7 @@ namespace Agriculture.Business.Concrete
             _genericDal = genericDal;
         }
 
+
         public void Add(T entity)
         {
             _genericDal.Add(entity);

@@ -1,0 +1,49 @@
+﻿@using Agriculture.Entities.Concrete
+@model List<Address>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Adres Bilgileri</h4>
+            <p class="card-description">
+                Kayıtlı Adresler...
+            </p>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Mahalle</th>
+                            <th>Cadde - Sokak</th>
+                            <th>Bina ve Daire No</th>
+                            <th>İlçe</th>
+                            <th>Şehir</th>
+                            <th>Harita</th>
+                            <th>Güncelle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.AddressId</td>
+                                <td>@item.District</td>
+                                <td>@item.Street</td>
+                                <td>@item.BuildNo</td>
+                                <td>@item.Town</td>
+                                <td>@item.City</td>
+                                <td>@item.MapInfo</td>
+                                <td><a href="/Address/UpdateAddress/@item.AddressId" class="btn btn-warning">Güncelle</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

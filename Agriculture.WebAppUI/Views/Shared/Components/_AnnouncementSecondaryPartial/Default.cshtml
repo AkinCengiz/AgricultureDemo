@@ -1,0 +1,42 @@
+﻿@using Agriculture.Entities.Concrete
+@model List<Announcement>
+
+@foreach (var item in Model)
+{
+    @if (@item.AnnouncementId % 2 == 0)
+    {
+        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">@item.Date.Date</button>
+                        <h4>Hasat Zamanı</h4>
+                        <img src="~/in_harvest-web_Free28-01-2017_1754250907/web/images/b@(@item.AnnouncementId%4).jpg" alt=" " class="img-responsive">
+                        <h5>@item.Title</h5>
+                        <p>@item.Description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">@item.Date.Date</button>
+                        <h4>In Harvest</h4>
+                        <img src="~/in_harvest-web_Free28-01-2017_1754250907/web/images/b@(@item.AnnouncementId%4).jpg" alt=" " class="img-responsive">
+                        <h5>@item.Title</h5>
+                        <p>@item.Description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    
+}
+    
