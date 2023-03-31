@@ -1,0 +1,17 @@
+﻿@using Agriculture.Entities.Concrete
+@model List<Address>
+
+
+<div class="col-md-3 contact-left">
+
+    @foreach (var item in Model)
+    {
+        <h4>Adresimiz</h4>
+        <p>@item.District @item.Street,</p>
+        <p>@item.City,</p>
+        <h4>Telefon</h4>
+        <p>@item.BuildNo</p>
+        <h4>Mail Adresi</h4>
+        <p>@item.Town</p>
+    }
+</div>

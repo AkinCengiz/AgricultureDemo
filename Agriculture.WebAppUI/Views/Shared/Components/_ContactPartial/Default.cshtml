@@ -1,0 +1,20 @@
+﻿@using Agriculture.Entities.Concrete
+@model List<Contact>
+
+<div class="col-md-9 contact-middle">
+    <h2>Merhabalar</h2>
+    <form action="#" method="post">
+        <div class="form-agileinfo">
+            <p>İsim</p>
+            <input type="text" name="your name" placeholder="İsminiz..." required=""/>
+            <p>Email</p>
+            <input type="email" name="Your email" placeholder="Email adresiniz..." required="" />
+        </div>
+        <div class="form-agileits-w3layouts">
+            <p>Mesaj</p>
+            <textarea name="your message" placeholder="Mesajınız..." required=""></textarea>
+            <input type="submit" value="Mesaj Gönder">
+        </div>
+        <div class="clearfix"></div>
+    </form>
+</div>
